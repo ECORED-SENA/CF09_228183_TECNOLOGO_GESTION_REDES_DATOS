@@ -254,13 +254,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Blanca Flor Tinoco Torres',
+          nombre: 'Carlos Julian Ramirez',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Francisco José Lizcano Reyes',
+          nombre: 'Emilsen Alfonso Bautista',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -268,12 +268,6 @@ export default {
         {
           nombre: 'Nombre',
           cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Emilsen Alfonso Bautista',
-          cargo: 'Actividad Didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
