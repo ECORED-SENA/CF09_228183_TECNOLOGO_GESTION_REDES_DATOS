@@ -122,31 +122,68 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1.1 Estándares en WLAN',
+      referencia:
+        'Asociación para el progreso de las telecomunicaciones. (2016). <em>Colombia: especialistas debaten sobre la creación de redes inalámbricas comunitarias.</em>',
+      tipo: 'Artículo',
+      link:
+        'https://www.apc.org/es/news/colombia-especialistas-debaten-sobre-la-creacion-d ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1.1 Estándares en WLAN',
+      referencia:
+        'Oracle. (2010). <em>Guía de administración del sistema: servicios IP. Modelo de referencia OSI.</em>',
+      tipo: 'Sitio web',
+      link: 'https://docs.oracle.com/cd/E19957-01/820-2981/ipov-8/index.html',
+    },
+    {
+      tema: '1.5 Marco legal',
+      referencia: 'Sin Juriscol. (s.f.). <em>Compilación jurídica MINTIC.</em>',
+      tipo: 'Sitio web',
+      link: 'https://normograma.mintic.gov.co/docs/arbol/1000.htm',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Adaptador de red',
+      significado:
+        'dispositivo de hardware que se inserta en una estación de trabajo de una red y le permite comunicarse con otros elementos unidos a la red. El adaptador de red recibe y convierte señales entrantes de la red a la estación de trabajo y convierte y envía comunicaciones salientes a la red.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Protocolo',
+      significado:
+        'reglas de comunicación bajo las cuales opera la red. Un protocolo prescribe la manera como se formatean y transmiten las solicitudes, los mensajes y otras señales a través de la red.',
+    },
+    {
+      termino: 'VoIP',
+      significado:
+        'es un conjunto de recursos que hacen posible que la señal de voz viaje a través de Internet empleando el protocolo IP (Protocolo de Internet)',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Constitución Política de Colombia [Constitución 1991]. Art. 75. El espectro electromagnético es un bien público inenajenable e imprescriptible sujeto a la gestión y control del Estado. 7 de julio de 1991 (Colombia).',
+      link: '',
+    },
+    {
+      referencia: 'Covarrubias, N. (2020). ¿Qué es la zona de Fresnel? ',
+      link:
+        'https://soporte.syscom.mx/es/articles/1455193-que-es-la-zona-de-fresnel',
+    },
+    {
+      referencia:
+        'Ligth, E. (2013). El espectro radioeléctrico como medio de vida. Commons. Revista de Comunicación y Ciudadanía Digital, 2(1).',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio TIC de Colombia. (Junio 4, 2020). Resolución 2256 de 2020. Por la cual se actualiza la Política de Tratamiento de Datos Personales del Ministerio TIC".',
+      link: '',
+    },
+    {
+      referencia:
+        'Resolución 3436 de 2017. Por la cual se reglamentan los requisitos técnicos, operativos y de seguridad que deberán cumplir las zonas de acceso a Internet inalámbrico de que trata el capítulo 2, título 9, parte 2, del Decreto 1078 de 2015. Diciembre 27 de 2017. Diario Oficial 50.484.',
       link: '',
     },
   ],
