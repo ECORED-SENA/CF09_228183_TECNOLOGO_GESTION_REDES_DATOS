@@ -1,17 +1,30 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Verificación / transmisión de datos',
+    descripcionCurso:
+      'Este componente formativo, aborda generalidades y aspectos clave sobre el proceso de verificación / transmisión de datos, la comprobación del flujo de información sobre la infraestructura inalámbrica y otras acciones conexas. Co su estudio responsable, el aprendiz estará se afianzará en: medios inalámbricos, estándares de transmisión, seguridad en la red, métodos y métodos de funcionamiento, entre otros.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-5.png'),
       },
     ],
   },
@@ -31,28 +44,35 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Revisión y actualización de los estándares y normatividad',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Estándares en WLAN',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Site Survey',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Zona de Fresnel',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Calidad del Servicio QoS',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Marco legal',
+            hash: 't_1_5',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -86,7 +106,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/material.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -116,12 +136,12 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: '',
+      significado: '',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: '<em></em>',
+      significado: '',
     },
   ],
   referencias: [
@@ -136,14 +156,13 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Nombre completo',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Nombre centro de formación',
         },
       ],
     },
@@ -153,8 +172,7 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Nombre del rol',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          centro: 'Nombre centro de formación',
         },
       ],
     },
@@ -163,27 +181,18 @@ export default {
       autores: [
         {
           nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          cargo: 'Diseñador web',
+          centro: 'Nombre centro de formación',
         },
         {
           nombre: 'Nombre responsable',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          centro: 'Nombre centro de formación',
         },
         {
           nombre: 'Nombre',
           cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          centro: 'Nombre centro de formación',
         },
       ],
     },
@@ -191,22 +200,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Nombre validador',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro: 'Nombre centro formación',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Nombre validador',
+          cargo: 'Validación de contenidos accesibles',
+          centro: 'Nombre centro formación',
         },
       ],
     },
