@@ -26,7 +26,7 @@
                 li.d-flex
                   i.fas.fa-check(style="color: #8054F8")
                   |
-                  p.mb-0 Estándares oficiales o “De iure”, desarrollados por las diferentes entidades oficialmente encargadas de esta labor, ampliamente reconocidas como el caso de IEEE (Asociación Profesional de Ingeniería) ISO (Organización Internacional para la Estandarización), ITU o UIT (Unión internacional de Telecomunicaciones) o la IETF (Internet Engineering Task Force ó Grupo de Trabajo de Ingeniería en Internet) que regula los estándares RFC.
+                  p.mb-0 Estándares oficiales o “De iure”, desarrollados por las diferentes entidades oficialmente encargadas de esta labor, ampliamente reconocidas como el caso de IEEE (Asociación Profesional de Ingeniería) ISO (Organización Internacional para la Estandarización), ITU o UIT (Unión internacional de Telecomunicaciones) o la IETF (<i>Internet Engineering Task Force</i> ó Grupo de Trabajo de Ingeniería en Internet) que regula los estándares RFC.
             .col-lg-4
               figure
                 img(src='@/assets/curso/tema3/img2.png', style="width: 300px" ,alt='').m-auto
@@ -39,14 +39,14 @@
         figure
           img(src='@/assets/curso/tema3/img3.png', style="width: 250px" ,alt='').m-auto
       .col-lg-9
-        p Específicamente para las redes inalámbricas locales WLAN, existe variedad de estándares definidos para normar las comunicaciones, el estándar IEEE 802.11 inicialmente diseñado en 1997 y desarrollado por la IEEE (Instituto de Ingeniería Eléctrica y Electrónica por sus siglas en inglés), se constituye como la referencia universal para redes WLAN. A esta familia de estándares en constante evolución se les conoce como Wi-Fi y son muchas las versiones que se han implementado de esta familia de estándares para comunicaciones de banda ancha, que normaliza los dos niveles más bajos de la arquitectura OSI: La capa física y la capa de enlace.
+        p Específicamente para las redes inalámbricas locales WLAN, existe variedad de estándares definidos para nombrar las comunicaciones, el estándar IEEE 802.11 inicialmente diseñado en 1997 y desarrollado por la IEEE (Instituto de Ingeniería Eléctrica y Electrónica por sus siglas en inglés), se constituye como la referencia universal para redes WLAN. A esta familia de estándares en constante evolución se les conoce como Wi-Fi y son muchas las versiones que se han implementado de esta familia de estándares para comunicaciones de banda ancha, que normaliza los dos niveles más bajos de la arquitectura OSI: La capa física y la capa de enlace.
         p.mb-0 #[b A continuación, conozca los diferentes estándares WLAN.]
     .tarjeta.tarjeta--gris2
       .p-4.p-lg-5
         LineaTiempoC.color-acento-botones(text-small)
           .row.justify-content-center(titulo="Estándar 802.11 (1997)")
             .col-lg-10
-              p.mb-0 Primer estándar IEEE aprobado para redes inalámbricas locales, define las dos primeras capas del modelo OSI (física y de enlace). Trabaja dos tecnologías de transmisión de nivel físico: Direct Sequence Spread Spectrum (DSSS) y Frequency Hopping Spread Spectrum (FHSS); estas capas utilizan métodos distintos de transmisión de señales a través del aire. Utiliza frecuencia de 2.4 GHz, ancho de banda 22 MHz y alcance de 100 Mts, trabaja a una velocidad máxima de 2Mbps
+              p.mb-0 Primer estándar IEEE aprobado para redes inalámbricas locales, define las dos primeras capas del modelo OSI (física y de enlace). Trabaja dos tecnologías de transmisión de nivel físico: <i>Direct Sequence Spread Spectrum (DSSS) y Frequency Hopping Spread Spectrum </i> (FHSS); estas capas utilizan métodos distintos de transmisión de señales a través del aire. Utiliza frecuencia de 2.4 GHz, ancho de banda 22 MHz y alcance de 100 Mts, trabaja a una velocidad máxima de 2Mbps
           .row.justify-content-center(titulo="Estándar 802.11a (1999)")
             .col-lg-10
               p.mb-0 Emplea frecuencia de 5.4 GHz, ancho de banda de 20 MHz, alcance de 120 mts, técnica de transmisión OFDM (Multiplexación Ortogonal por División de Frecuencia por sus siglas en inglés). Velocidades de 54Mbps. Su desventaja es que la infraestructura o teoría de semiconductores para 5 GHz, no estaba suficientemente desarrollada.
@@ -68,7 +68,7 @@
     Separador
     #t_1_2
     .titulo-segundo.color-acento-contenido
-      h2 1.2 Site Survey
+      h2 1.2 #[em Site Survey]
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img4.png')})`}"
@@ -102,7 +102,7 @@
         figure
           img(src='@/assets/curso/tema3/img3.svg', style="width: 400px" ,alt='').m-auto
     p En caso de oclusiones particulares, es recomendable optar por el cambio de posición de la antena de forma que tenga al menos el 60% del radio máximo de esta zona libre.
-    p Lo ideal es que al generar el enlace no haya obstrucción, y en caso que no sea posible evitarlo, no debe superar el 20% y como máximo el 40%.
+    p Lo ideal es que al generar el enlace no haya obstrucción, y en caso de que no sea posible evitarlo, no debe superar el 20% y como máximo el 40%.
     p Al 20% el enlace ya no funciona bien, tendrá interferencia y si es más del 40% el enlace no será efectivo.
     p.mb-5 #[b Para ampliar la información y estudiar un caso práctico, lo invitamos a ver el siguiente video.]
     figure.mb-5
@@ -176,7 +176,7 @@
       )
       .bloque-texto-g__texto.p-5
         p.mb-0 #[b #[i Quality of Service]], en español Calidad del servicio, hace referencia al rendimiento promedio de una red; esto desde la óptica del usuario. Este rendimiento se mide en aspectos como el ancho de banda, la latencia, la tasa de errores, etc.
-    p.mb-5 Aplicado a redes inalámbricas, en las cuales el medio de transporte es compartido, estas políticas de calidad del servicio se refieren en la capacidad que posea la red para proporcionar un mejor servicio o un servicio especial a determinados usuarios en detrimento de otro u otros usuarios o aplicaciones, mediante la implementación de políticas QoS acordes a los requerimientos, tales como como anchos de banda dedicados o diferenciados, control de latencia o priorización de tráficos.
+    p.mb-5 Aplicado a redes inalámbricas, en las cuales el medio de transporte es compartido, estas políticas de calidad del servicio se refieren en la capacidad que posea la red para proporcionar un mejor servicio o un servicio especial a determinados usuarios en detrimento de otro u otros usuarios o aplicaciones, mediante la implementación de políticas QoS acordes a los requerimientos, tales como anchos de banda dedicados o diferenciados, control de latencia o priorización de tráficos.
     .row.bg-c16
       .col-12
         .px-5.pb-5
@@ -189,7 +189,7 @@
                   .col-lg-auto
                     figure
                       img(src='@/assets/curso/tema3/img8.png', style="width: 200px" ,alt='').m-auto
-          p Si se plantea por un momento el escenario de devolver en el tiempo 10 o 15 años para entrar a una plataforma como Youtube, y ver un vIdeo, es un tema bastante complejo porque es poner a prueba la paciencia del usuario, debido a que este tipo de contenido era o es bastante “pesado” para su transmisión, requiere una mejor conexión, ancho de banda, velocidad, etc. y todo esto hace parte de la calidad de servicio QoS, porque es entrar a velar por un nivel de eficacia para el usuario final garantizando en un alto porcentaje el servicio recibido.
+          p Si se plantea por un momento el escenario de devolver en el tiempo 10 o 15 años para entrar a una plataforma como Youtube, y ver un video, es un tema bastante complejo porque es poner a prueba la paciencia del usuario, debido a que este tipo de contenido era o es bastante “pesado” para su transmisión, requiere una mejor conexión, ancho de banda, velocidad, etc. y todo esto hace parte de la calidad de servicio QoS, porque es entrar a velar por un nivel de eficacia para el usuario final garantizando en un alto porcentaje el servicio recibido.
           p.mb-5 #[b La calidad del servicio QoS en telecomunicaciones, se define como:]
           .row.align-items-end.mb-5
             .col-lg-6
@@ -237,7 +237,7 @@
           .p-4
             p #[b Resolución 2759 de 2020]
             p mediante la cual se adopta la política pública de espectro para la vigencia 2020-2024.
-            a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+            a.anexo.mb-4.mb-lg-0(href="https://www.ane.gov.co/Sliders/archivos/PlaneacionInvestigacionDesarrolo/1.%20POL%C3%8DTICA%20DE%20ESPECTRO/2020%2012%2015%2004_POLITICA%20PUBLICA%20DE%20ESPECTRO.pdf" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
@@ -262,9 +262,9 @@
                   .row(titulo="Tecnología")
                     .col-12
                       p La tecnología utilizada para la implementación de las RLAN en las entidades del orden nacional, debe ser de amplia utilización y debe ser asequible por los usuarios, en este sentido se recomienda la implementación sobre el estándar IEEE 802.11 (WiFi), IEEE 802.11 a/b/g/n/ac.
-                  .row(titulo="Access Point/AP (Puntos de Acceso)")
+                  .row(titulo="#[em Access Point/AP] (Puntos de Acceso)")
                     .col-12
-                      p La cantidad de Puntos de Acceso (AP) a instalar deben definirse en el estudio de campo y los mismos deben soportar la cobertura al espacio de atención al usuario y el acceso de equipos terminales de usuario portátiles y móviles. Para los espacios de atención al público que colinda con el espacio público, la zona WiFi deberá extenderse para dar cobertura de mínimo dos (2) metros lineales hacia el exterior de la entidad. Los Puntos de Acceso (AP) a implementar, deben contar con la certificación de industria “WiFi Certified”. El acceso deberá prestarse simultáneamente en banda de 2.4 y 5 GHz.
+                      p La cantidad de Puntos de Acceso (AP) a instalar deben definirse en el estudio de campo y los mismos deben soportar la cobertura al espacio de atención al usuario y el acceso de equipos terminales de usuario portátiles y móviles. Para los espacios de atención al público que colinda con el espacio público, la zona WiFi deberá extenderse para dar cobertura de mínimo dos (2) metros lineales hacia el exterior de la entidad. Los Puntos de Acceso (AP) a implementar, deben contar con la certificación de industria “WiFi <i>Certified</i>”. El acceso deberá prestarse simultáneamente en banda de 2.4 y 5 GHz.
                   .row(titulo="Equipos terminales de usuario")
                     .col-12
                       p Las redes a implementar deben estar en capacidad de permitir la conexión de equipos terminales, tales como computadores portátiles, celulares inteligentes y tabletas con diferentes sistemas operativos.

@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Verificación / transmisión de datos',
+    componenteFormativo: 'Validación de estándares y normatividad vigente',
     descripcionCurso:
-      'Este componente formativo, aborda generalidades y aspectos clave sobre el proceso de verificación / transmisión de datos, la comprobación del flujo de información sobre la infraestructura inalámbrica y otras acciones conexas. Co su estudio responsable, el aprendiz estará se afianzará en: medios inalámbricos, estándares de transmisión, seguridad en la red, métodos y métodos de funcionamiento, entre otros.',
+      'En el presente componente formativo se presentarán los conocimientos para validar que la infraestructura tecnológica de red cumpla con los estándares y normatividad vigente, según organizaciones internacionales y nacionales.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -147,7 +147,7 @@ export default {
     {
       termino: 'Adaptador de red',
       significado:
-        'dispositivo de hardware que se inserta en una estación de trabajo de una red y le permite comunicarse con otros elementos unidos a la red. El adaptador de red recibe y convierte señales entrantes de la red a la estación de trabajo y convierte y envía comunicaciones salientes a la red.',
+        'dispositivo de <i>hardware</i> que se inserta en una estación de trabajo de una red y le permite comunicarse con otros elementos unidos a la red. El adaptador de red recibe y convierte señales entrantes de la red a la estación de trabajo y convierte y envía comunicaciones salientes a la red.',
     },
     {
       termino: 'Protocolo',

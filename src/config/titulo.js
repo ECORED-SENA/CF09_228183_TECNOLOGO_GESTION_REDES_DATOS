@@ -1,1 +1,1 @@
-module.exports = 'Verificación / transmisión de datos'
+module.exports = 'Validación de estándares y normatividad vigente'
