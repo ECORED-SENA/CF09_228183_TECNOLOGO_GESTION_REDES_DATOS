@@ -74,6 +74,8 @@
             </options>
           </option>
           <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -1326,12 +1328,12 @@
         <slidelink slideid="_player.6g8RcXIVtvA" displaytext="Nuevo Presentación de Microsoft PowerPoint" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6g8RcXIVtvA.6GrUdUpuerp" displaytext="Diapositiva sin título" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.64rZcxwdqXa" displaytext="Los estándares IEEE para redes inalámbricas surgieron en 1997 y se conocen como la familia de estándares." expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6GcNrKhHuYL" displaytext="El estándar que representa formalmente la ampliación del uso del espectro a la banda de 6 Ghz es el estándar" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.5dJg7QfsaCi" displaytext="En 2018 la WiFi Alliance reconoció formalmente al estándar 802.11ax como" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6pgX1xZSymS" displaytext="El análisis de sitio para determinar la cantidad y ubicación de los AP se llama" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.64rZcxwdqXa" displaytext="Los estándares IEEE para redes inalámbricas surgieron en 1997 y se conocen como la familia de estándares:" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.6GcNrKhHuYL" displaytext="El estándar que representa formalmente la ampliación del uso del espectro a la banda de 6 Ghz es el estándar:" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5dJg7QfsaCi" displaytext="En 2018 la WiFi Alliance reconoció formalmente al estándar 802.11ax como:" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.6pgX1xZSymS" displaytext="El análisis de sitio para determinar la cantidad y ubicación de los AP se llama:" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5xwlqv81Hdx" displaytext="La fórmula de Fresnel permite determinar el radio alrededor de la línea de vista para evitar interferencias por obstrucción Y considera como parámetros:" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.5VtmIeadpkS" displaytext="Si se considera la percepción del usuario final respecto al servicio de la red y la experiencia de uso, se está hablando de" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5VtmIeadpkS" displaytext="Si se considera la percepción del usuario final respecto al servicio de la red y la experiencia de uso, se está hablando de:" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
