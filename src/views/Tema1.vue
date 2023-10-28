@@ -46,24 +46,31 @@
         LineaTiempoC.color-acento-botones(text-small)
           .row.justify-content-center(titulo="Estándar 802.11 (1997)")
             .col-lg-10
+              h4.mt-4 Estándar 802.11 (1997)
               p.mb-0 Primer estándar IEEE aprobado para redes inalámbricas locales, define las dos primeras capas del modelo OSI (física y de enlace). Trabaja dos tecnologías de transmisión de nivel físico: <i>Direct Sequence Spread Spectrum (DSSS) y Frequency Hopping Spread Spectrum </i> (FHSS); estas capas utilizan métodos distintos de transmisión de señales a través del aire. Utiliza frecuencia de 2.4 GHz, ancho de banda 22 MHz y alcance de 100 Mts, trabaja a una velocidad máxima de 2Mbps
           .row.justify-content-center(titulo="Estándar 802.11a (1999)")
             .col-lg-10
+              h4.mt-4 Estándar 802.11a (1999)
               p.mb-0 Emplea frecuencia de 5.4 GHz, ancho de banda de 20 MHz, alcance de 120 mts, técnica de transmisión OFDM (Multiplexación Ortogonal por División de Frecuencia por sus siglas en inglés). Velocidades de 54Mbps. Su desventaja es que la infraestructura o teoría de semiconductores para 5 GHz, no estaba suficientemente desarrollada.
           .row.justify-content-center(titulo="Estándar 802.11b (1999)")
             .col-lg-10
+              h4.mt-4 Estándar 802.11b (1999)
               p.mb-0 Compatible con 802.11 y con mayor ancho de banda, lo que facilitó la migración desde 802.11 y otorgó gran aceptación en el mercado. Velocidad máxima de 11Mbps, frecuencia de 2.4 GHz, ancho de banda de 22 MHz y alcance de 150 mts. Fue un estándar ampliamente usado, así como el estándar 802.11g por su mejoría en la velocidad.
           .row.justify-content-center(titulo="Estándar 802.11g (2003)")
             .col-lg-10
+              h4.mt-4 Estándar 802.11g (2003)
               p.mb-0 Trabaja con la modulación OFDM en la capa física en la frecuencia de 2.4GHz. Provee mayor ancho de banda, con una velocidad máxima de 54Mbps. Alcance de 150 mts, igual que el IEEE 802.11b pero con el ancho de banda que brinda el 802.11a.
           .row.justify-content-center(titulo="Estándar 802.11n (2004)")
             .col-lg-10
+              h4.mt-4 Estándar 802.11n (2004)
               p.mb-0 Permite velocidad de transmisión de hasta 540 Mbps en frecuencias de 2,4 o de 5 GHz, alcance de 300 mts y ancho de banda de hasta 40 Mhz. Incorpora tecnología MIMO (Múltiples entradas - Múltiples salidas por sus siglas en inglés), es decir, varias antenas para poder utilizar varios canales simultáneamente.
           .row.justify-content-center(titulo="Estándar 802.11ac (2013)")
             .col-lg-10
+              h4.mt-4 Estándar 802.11ac (2013)
               p.mb-0 Hace parte de los estándares denominados en 2018 por la WiFi Alliance como WiFi 5. Basado en una mejora realizada al 802.11n, optimiza la tasa de transferencia y alcanza velocidades máximas de 1300 Mbps, con tecnología MIMO emplea 3 antenas, en una banda de 5 GHz.
           .row.justify-content-center(titulo="Estándar 802.11ax (2020)")
             .col-lg-10
+              h4.mt-4 Estándar 802.11ax (2020)
               p.mb-0 Denominado WiFi 6 por la WiFi Alliance, amplia formalmente el uso del espectro a 6 GHZ, moviéndose tanto en bandas de 2.4 como de 5 GHz. Introduce la tecnología OFDMA (Acceso múltiple por división de frecuencias ortogonales), mejora la eficiencia en el uso del espectro, velocidad de 600 mbps, menor consumo de energía, e incrementa el desempeño en ambientes de alta densidad, disminuyendo la latencia.
     Separador
     #t_1_2
