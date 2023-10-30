@@ -47,7 +47,7 @@
           .row.justify-content-center(titulo="Estándar 802.11 (1997)")
             .col-lg-10
               h4.mt-4 Estándar 802.11 (1997)
-              p.mb-0 Primer estándar IEEE aprobado para redes inalámbricas locales, define las dos primeras capas del modelo OSI (física y de enlace). Trabaja dos tecnologías de transmisión de nivel físico: <i>Direct Sequence Spread Spectrum (DSSS) y Frequency Hopping Spread Spectrum </i> (FHSS); estas capas utilizan métodos distintos de transmisión de señales a través del aire. Utiliza frecuencia de 2.4 GHz, ancho de banda 22 MHz y alcance de 100 Mts, trabaja a una velocidad máxima de 2Mbps
+              p.mb-0 Primer estándar IEEE aprobado para redes inalámbricas locales, define las dos primeras capas del modelo OSI (física y de enlace). Trabaja dos tecnologías de transmisión de nivel físico: <i>Direct Sequence Spread Spectrum (DSSS) y Frequency Hopping Spread Spectrum </i> (FHSS); estas capas utilizan métodos distintos de transmisión de señales a través del aire. Utiliza frecuencia de 2.4 GHz, ancho de banda 22 MHz y alcance de 100 Mts, trabaja a una velocidad máxima de 2Mbps.
           .row.justify-content-center(titulo="Estándar 802.11a (1999)")
             .col-lg-10
               h4.mt-4 Estándar 802.11a (1999)
@@ -269,7 +269,7 @@
                   .row(titulo="Tecnología")
                     .col-12
                       p La tecnología utilizada para la implementación de las RLAN en las entidades del orden nacional, debe ser de amplia utilización y debe ser asequible por los usuarios, en este sentido se recomienda la implementación sobre el estándar IEEE 802.11 (WiFi), IEEE 802.11 a/b/g/n/ac.
-                  .row(titulo="#[em Access Point/AP] (Puntos de Acceso)")
+                  .row(titulo="<i>Access Point/AP</i> (Puntos de Acceso)")
                     .col-12
                       p La cantidad de Puntos de Acceso (AP) a instalar deben definirse en el estudio de campo y los mismos deben soportar la cobertura al espacio de atención al usuario y el acceso de equipos terminales de usuario portátiles y móviles. Para los espacios de atención al público que colinda con el espacio público, la zona WiFi deberá extenderse para dar cobertura de mínimo dos (2) metros lineales hacia el exterior de la entidad. Los Puntos de Acceso (AP) a implementar, deben contar con la certificación de industria “WiFi <i>Certified</i>”. El acceso deberá prestarse simultáneamente en banda de 2.4 y 5 GHz.
                   .row(titulo="Equipos terminales de usuario")

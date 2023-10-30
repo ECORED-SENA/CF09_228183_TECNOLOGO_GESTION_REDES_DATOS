@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Validación de estándares y normatividad vigente
-        p.mb-4 #[b Objetivo] Reforzar conceptos vistos sobre parámetros de certificación cumplan con estándares y normatividad vigente.
+        p.mb-4 Reforzar conceptos vistos sobre parámetros de certificación cumplan con estándares y normatividad vigente.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center
             .col-sm.mb-3.mb-sm-0
