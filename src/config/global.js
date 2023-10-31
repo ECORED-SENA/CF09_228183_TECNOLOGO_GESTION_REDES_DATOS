@@ -209,42 +209,42 @@ export default {
       autores: [
         {
           nombre: 'Jorge Eliécer Loaiza Muñoz',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
         },
         {
           nombre: 'Carlos Mauricio Tovar Artunduaga',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
         },
         {
           nombre: 'Deivis Eduard Ramirez Martinez',
-          cargo: 'Diseñador instruccional',
+          cargo: 'Diseñador Instruccional',
           centro:
             'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Heidi Zuleima Gil Castañeda',
-          cargo: 'Experta temática',
+          cargo: 'Experta Temática',
           centro:
             'Centro de la Industria, la Empresa y los Servicios  - Regional Norte de Santander',
         },
         {
           nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Evaluadora instruccional',
+          cargo: 'Evaluadora Instruccional',
           centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',
-          cargo: 'Metodólogo para formación virtual',
+          cargo: 'Metodólogo para Formación Virtual',
           centro:
-            'Centro industrial del diseño y la manufactura - Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Sandra Patricia Hoyos Sepúlveda',
-          cargo: 'Corrección de estilo',
+          cargo: 'Corrección de Estilo',
           centro:
             'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
         },
@@ -266,8 +266,20 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Wilson Andrés Arenales Cáceres ',
+          cargo: 'Storyboard e Ilustración ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada ',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya ',
+          cargo: 'Locución ',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
