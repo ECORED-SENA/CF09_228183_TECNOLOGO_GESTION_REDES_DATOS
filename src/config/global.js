@@ -106,7 +106,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.pdf',
+        download: 'downloads/228183_CF9_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -220,33 +220,16 @@ export default {
             'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
         },
         {
-          nombre: 'Deivis Eduard Ramirez Martinez',
-          cargo: 'Diseñador Instruccional',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
-        },
-        {
           nombre: 'Heidi Zuleima Gil Castañeda',
           cargo: 'Experta Temática',
           centro:
             'Centro de la Industria, la Empresa y los Servicios  - Regional Norte de Santander',
         },
         {
-          nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Evaluadora Instruccional',
-          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
-        },
-        {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo: 'Metodólogo para Formación Virtual',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Sandra Patricia Hoyos Sepúlveda',
-          cargo: 'Corrección de Estilo',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
         },
       ],
     },
