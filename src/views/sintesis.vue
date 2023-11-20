@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Esquema general del componente formativo, que enuncia las temáticas desarrolladas en el mismo y destaca aspectos clave estudiados. Tema central: validación de estándares y normatividad. Temas integradores: estándares internacionales, Site Survey, zona de Fresnel, calidad del servicio QoS, Estándares en WLAN y normativa.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis_cf9.pdf')" target="_blank")
           .anexo__icono

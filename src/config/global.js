@@ -109,11 +109,6 @@ export default {
         download: 'downloads/228183_CF9_DU.pdf',
       },
       {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
-      {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
@@ -172,6 +167,9 @@ export default {
         'https://soporte.syscom.mx/es/articles/1455193-que-es-la-zona-de-fresnel',
     },
     {
+      referencia: 'ITU. (1984). Recomendación E-800.',
+    },
+    {
       referencia:
         'Ligth, E. (2013). El espectro radioeléctrico como medio de vida. Commons. Revista de Comunicación y Ciudadanía Digital, 2(1).',
       link: '',
@@ -185,6 +183,10 @@ export default {
       referencia:
         'Resolución 3436 de 2017. Por la cual se reglamentan los requisitos técnicos, operativos y de seguridad que deberán cumplir las zonas de acceso a Internet inalámbrico de que trata el capítulo 2, título 9, parte 2, del Decreto 1078 de 2015. Diciembre 27 de 2017. Diario Oficial 50.484.',
       link: '',
+    },
+    {
+      referencia:
+        'Suarez Ramírez, A. (2013). Diseño e implementación de una herramienta para el monitoreo de parámetros de QOS en redes NGN. Universidad Autónoma de Occidente. Santiago de Cali.',
     },
   ],
   creditos: [
