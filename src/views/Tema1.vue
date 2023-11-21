@@ -243,7 +243,7 @@
         .cajon.color-primario.h-100
           .p-4
             p #[b Resolución 2759 de 2020]
-            p mediante la cual se adopta la política pública de espectro para la vigencia 2020-2024.
+            p Mediante la cual se adopta la política pública de espectro para la vigencia 2020-2024.
             a.anexo.mb-4.mb-lg-0(href="https://www.ane.gov.co/Sliders/archivos/PlaneacionInvestigacionDesarrolo/1.%20POL%C3%8DTICA%20DE%20ESPECTRO/2020%2012%2015%2004_POLITICA%20PUBLICA%20DE%20ESPECTRO.pdf" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
